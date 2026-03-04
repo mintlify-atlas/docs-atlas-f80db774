@@ -1,0 +1,121 @@
+{
+  "projectType": "saas",
+  "projectName": "Klef Sonatta",
+  "projectDescription": "Modern agency website built with the Sonatta theme, showcasing Klef Agency's services in branding, strategy, design, and development.",
+  "theme": "almond",
+  "primaryColor": "#eadad3",
+  "lightColor": "#59a17d",
+  "darkColor": "#1f2026",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/portfolio-system",
+              "features/spa-navigation",
+              "features/search-functionality",
+              "features/mega-menu",
+              "features/responsive-design"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "components/overview",
+              "components/adaptive-sheet",
+              "components/dynamic-island",
+              "components/hero",
+              "components/navigation",
+              "components/search",
+              "components/footer"
+            ]
+          },
+          {
+            "group": "Design System",
+            "pages": [
+              "design/css-variables",
+              "design/typography",
+              "design/colors",
+              "design/layout"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Development",
+            "pages": [
+              "guides/project-structure",
+              "guides/customization",
+              "guides/adding-components",
+              "guides/wordpress-integration"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "guides/static-hosting",
+              "guides/github-pages",
+              "guides/seo-optimization"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "JavaScript API",
+            "pages": [
+              "api/router",
+              "api/mega-menu",
+              "api/search",
+              "api/scroll-lock"
+            ]
+          },
+          {
+            "group": "Theme",
+            "pages": [
+              "theme/sonatta-overview",
+              "theme/customization",
+              "theme/best-practices"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "SPA-style navigation with mega menus",
+    "Dynamic portfolio showcase with masonry layout",
+    "Advanced search with overlay and real-time results",
+    "Modular component system (adaptive sheets, dynamic islands)",
+    "WordPress GraphQL integration for content",
+    "Mobile-first responsive design",
+    "CSS variable-based design system",
+    "No build process required"
+  ],
+  "publicApiSurface": [
+    "Router.navigate(path)",
+    "MegaMenu.open(menuId)",
+    "Search.query(term)",
+    "AdaptiveSheet.show(content)",
+    "ScrollLock.enable()",
+    "ScrollLock.disable()",
+    "Portfolio.filter(category)",
+    "DynamicIsland.show(message)"
+  ]
+}
